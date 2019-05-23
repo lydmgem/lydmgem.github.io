@@ -1,0 +1,112 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+ion-icon {
+  font-size: 48px!important;
+  color: black;
+}
+
+a {
+  font-family: 'Oswald';
+  text-transform: uppercase;
+}
+
+.footer-text {
+  font-family: 'Oswald';
+  font-weight: 200;
+  margin: 0 auto;
+}
+
+p {
+  line-height: 2rem;
+}
+
+h1#welcome {
+  color: white!important;
+  margin: 100px 0;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.carousel {
+  max-height: 650px;
+}
+
+#caro-arrow-btn {
+  /* color: #9c26b0; */
+  color: silver;
+  margin: 0 50px;
+  height: 500px;
+}
+
+h5.app-title {
+  font-family: 'Oswald';
+}
+
+#portfolio-images {
+  max-width: 250px;
+  height: 187.5px;
+}
+
+#bio-pic {
+  max-width: 200px;
+  float: left;
+  margin-right: 20px;
+}
+
+#contact-me {
+  font-size: 15pt;
+}
+
+#social-buttons {
+  color: black;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}

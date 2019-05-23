@@ -1,12 +1,185 @@
 <!DOCTYPE html>
-  <html lang="eng-us">
-    <head>
-      <meta charset="UTF-8">
-      <title>HTML.index</title>
-    </head>
-    
-    <body>
-    <p>This is an example.</p>
-    </body>
-    
-    </html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  
+  <title>About Me</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons|Parisienne|Oswald:200,400" rel="stylesheet">
+  <link href="assets/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="assets/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="white" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="#" class="brand-logo"><img src="assets/img/logo.png" height="105px"></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#languages">Languages</a></li>
+        <li><a href="#about-me">About Me</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="sidenav">
+        <li><a href="#languages">Languages</a></li>
+        <li><a href="#about-me">About Me</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h1 class="header center teal-text text-lighten-2" id="welcome">Welcome!</h1>
+        </div>
+        <br><br>
+
+      </div>
+    </div>
+    <div class="parallax"><img src="assets/img/laptop.jpg" alt="Unsplashed background img 1"></div>
+  </div>
+
+
+  <div class="container">
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <div class="row">
+        <a name="languages"></a>
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center purple-text"><i class="material-icons">brush</i></h2>
+            <h5 class="center">I Design With:</h5>
+            <ul class="center light">
+              <li>Adobe Photoshop</li>
+              <li>Adobe Illustrator</li>
+              <li>Paint</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center purple-text"><i class="material-icons">build</i></h2>
+            <h5 class="center">Front-End:</h5>
+
+            <ul class="center light">
+              <li>HTML</li>
+              <li>Javascript</li>
+              <li>jQuery</li>
+              <li>CSS</li>
+              <li>Materialize</li>
+              <li>Handlebars</li>
+              <li>React</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center purple-text"><i class="material-icons">business_center</i></h2>
+            <h5 class="center">Back-End:</h5>
+
+            <ul class="center light">
+              <li>Node</li>
+              <li>MySQL</li>
+              <li>MongoDB</li>
+              <li>Express</li>
+              <li>Firebase</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+    </div>
+    <div class="parallax"><img src="assets/img/houston.jpg" alt="Unsplashed background img 2"></div>
+  </div>
+
+  <div class="container">
+    <div class="section">
+
+      <div class="row">
+        <a name="about-me"></a>
+        <div class="col s12 center">
+          <h1 class="header center teal-text text-lighten-2">About Me</h1>
+          <img id="bio-pic" src="assets/img/Profile.jpeg" alt="Bio-Pic" class="circle responsive-img">
+          <p class="left-align light" id="bio-para">
+          I am currently a student of the Coding Bootcamp. I have worked in the medical field, for the most part, in the last 5 years.
+          <BR>
+          My ultimate goal is to acquire as many skills (if not all) from the program in order for me to be a finely-tuned instrument for my potential employer's orchestra of Developers.</p>
+          <p class="left-align dark" id="contact-me">Contact me via:
+          <BR>
+          <a href="https://github.com/lydmgem" target="_blank"><ion-icon name="logo-github" id="social-buttons"></ion-icon></a>
+          <a href="https://www.linkedin.com/in/lydia-malupa-8ba001175/" target="_blank"><ion-icon name="logo-linkedin" id="social-buttons"></ion-icon></a>
+          <a href="mailto:lydmgem@gmail.com" target="_blank"><ion-icon name="ios-mail"></ion-icon></a>
+          </p>
+          
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="parallax"><img src="assets/img/newyork.jpg" alt="Unsplashed background img 3"></div>
+  </div>
+
+  <div class="section no-pad-bot">
+    <div class="container">
+      <div class="row center">
+        <a name="portfolio"></a>
+          <h1 class="header center teal-text text-lighten-2">Portfolio</h1>
+      </div>
+    </div>
+  </div>
+  <!-- Carousel -->
+  <div class="carousel carousel-slider">
+    <div class="carousel-fixed-item center">
+      <a id="carousel-prev" class="movePrevCarousel left"><ion-icon name="ios-arrow-back" id="caro-arrow-btn"></ion-icon></a>
+      <a id="carousel-next" class="moveNextCarousel right"><ion-icon name="ios-arrow-forward" id="caro-arrow-btn"></ion-icon></a>
+    </div>
+    <a class="carousel-item" href="https://lydmgem.github.io/Psychic-Game/" target="_blank"><img src="assets/img/PsychicGame.png"></a>
+    <a class="carousel-item" href="https://lydmgem.github.io/unit-4-game/" target="_blank"><img src="assets/img/CrystalCollect.png"></a>
+    <a class="carousel-item" href="https://lydmgem.github.io/TriviaGame/" target="_blank"><img src="assets/img/Trivia.png"></a>
+    <a class="carousel-item" href="https://lydmgem.github.io/Giftastic/" target="_blank"><img src="assets/img/Giftastic.png"></a>
+    <a class="carousel-item" href="https://lydmgem.github.io/Train-Scheduler/" target="_blank"><img src="assets/img/TrainScheduler.png"></a>
+    <a class="carousel-item" href="https://zizuar.github.io/ProjectOne/" target="_blank"><img src="assets/img/SocialSnap.png"></a>
+    <a class="carousel-item" href="https://github.com/lydmgem/LIRI-Bot.git" target="_blank"><img src="assets/img/LIRI-Bot.png"></a>
+    <a class="carousel-item" href="https://github.com/lydmgem/Bamazon.git" target="_blank"><img src="assets/img/Bamazon.png"></a>
+    <a class="carousel-item" href="https://damp-citadel-66081.herokuapp.com/" target="_blank"><img src="assets/img/Friend-Finder.png"></a>
+    <a class="carousel-item" href="https://peaceful-cove-39715.herokuapp.com/" target="_blank"><img src="assets/img/Burger.png"></a>
+    <a class="carousel-item" href="https://game-jam2019.herokuapp.com/" target="_blank"><img src="assets/img/GameJam.gif"></a>
+    <a class="carousel-item" href="https://lydmgem.github.io/REACT-Clicky-Game/" target="_blank"><img src="assets/img/ClickyGame.png"></a>
+    <a class="carousel-item" href="https://github.com/DarekR88/cafe-del-sol" target="_blank"><img src="assets/img/Cafedelsol.gif"></a>
+    <div class="carousel-fixed-item center">
+      <a class="btn waves-effect white grey-text darken-text-2" href="portfolio.html" style="bottom: 20px;">CHECK ME OUT</a>
+    </div>
+  </div>
+
+  <footer class="page-footer teal">
+      <div class="container center" style="margin: auto;">
+        <p class="footer-text">LGM &copy; 2019</p>
+      </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="assets/js/materialize.js"></script>
+  <script src="assets/js/init.js"></script>
+  <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
+
+  </body>
+</html>
