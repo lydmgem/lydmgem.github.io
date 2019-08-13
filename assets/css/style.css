@@ -6,6 +6,10 @@
  * Made By MaterializeCSS.com
  */
 
+html {
+  scroll-behavior: smooth;
+}
+
 nav ul a,
 nav .brand-logo {
   color: #444;
@@ -107,6 +111,18 @@ h5.app-title {
   font-size: inherit;
 }
 
+
 footer.page-footer {
   margin: 0;
+}
+
+#stt {
+  position: fixed;
+  bottom: 0;
+  right: 10px;
+  text-align: right;
+}
+
+#stt-btn {
+  color: silver!important;
 }
